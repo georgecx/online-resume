@@ -26,6 +26,10 @@
 .bg-color-work-history {
     background-color:  #9578FF;
 }
+
+.bg-color-contact {
+    background-color: #fff;
+}
 /*--------------------------------Special Paddings/Margins/Text */
 h1,
 h2,
@@ -67,6 +71,7 @@ h4 {
 /*--------------------------------Heading*/
 header {
     margin: 0;
+    
 }
 .heading {
     margin-left: 50px;
@@ -158,8 +163,11 @@ header {
 footer {
     background-color: #676767;
     color: #fafafa;
-    min-height: 120px;
+    min-height: 100px;
+    margin: 0;
+    
 }
+
 
 .cv-pdf i {
     font-size: 18px;
@@ -320,4 +328,38 @@ footer {
 
 .history-items {
     margin-bottom: 30px;
+}
+
+/*--------------------------------Contact Form */
+
+.contact-heading {
+    font-family:"Sans Pro", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+    
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
+}
+
+/*--------------------------------Media Queries */
+
+@media(min-width: 992px) {
+    .center-form {
+    padding-top: 10px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 500%;
+}
 }
